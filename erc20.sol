@@ -31,7 +31,7 @@ contract SuperToken is ERC20 {
     uint256 public id;
 
     constructor() ERC20("SuperToken","ST") {
-        _mint(msg.sender,10000000 * 10**18); //minting into owner wallet
+        _mint(msg.sender,100000000 * 10**18); //minting into owner wallet
     }
 
     // custom transfer function burning 2% of the transaction cost
